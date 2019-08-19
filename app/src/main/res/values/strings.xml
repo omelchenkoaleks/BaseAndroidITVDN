@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Base Android</string>
+    <string name="empty_text" />
+    <string name="ao">Omelchenko Aleksandr</string>
+    <string name="flower">flower</string>
+    <string name="change_image_button">Description</string>
+</resources>
