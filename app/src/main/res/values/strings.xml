@@ -13,6 +13,12 @@
     <string name="letter_g">G</string>
     <string name="letter_l">L</string>
     <string name="letter_p">P</string>
+    <string name="min_up_button">Min Up</string>
+    <string name="min_down_button">Min Down</string>
+    <string name="hour_down_button">Hour Doun</string>
+    <string name="hour_up_button">Hour Up</string>
+    <string name="hour_0">0</string>
+    <string name="min_0">0</string>
 
     <string-array name="items">
         <item>doctor</item>
