@@ -23,7 +23,12 @@ public class ChangeImageActivity extends AppCompatActivity {
         virtualImage = findViewById(R.id.flower_image_view);
     }
 
-    public void imageClick(View view) {
+    public void descriptionOnClick(View view) {
+        String text = (String) image.getTag();
+        description.setText(text);
+    }
+
+    public void changeImageOnClick(View view) {
         description.setText(getResources().getString(R.string.empty_text));
 
         /*
@@ -37,10 +42,5 @@ public class ChangeImageActivity extends AppCompatActivity {
         virtualImage.setImageDrawable(oldDrawable);
         image.setTag(tag);
         image.setImageDrawable(drawable);
-    }
-
-    public void descriptionOnClick(View view) {
-        String text = (String) image.getTag();
-        description.setText(text);
     }
 }

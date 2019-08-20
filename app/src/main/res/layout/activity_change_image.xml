@@ -24,7 +24,7 @@
         android:layout_height="@dimen/image_layout_height"
         android:layout_marginStart="8dp"
         android:layout_marginEnd="8dp"
-        android:onClick="imageClick"
+        android:onClick="descriptionOnClick"
         android:tag="@string/ao"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -50,7 +50,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:text="@string/change_image_button"
-        android:onClick="descriptionOnClick"
+        android:onClick="changeImageOnClick"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/flower_image_view" />
