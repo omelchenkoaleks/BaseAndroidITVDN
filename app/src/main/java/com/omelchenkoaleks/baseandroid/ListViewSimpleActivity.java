@@ -16,10 +16,18 @@ public class ListViewSimpleActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_list_view_simple);
 
+
+        // 3 пример - получаем данные из ресурсов (string-array)
         ListView listView = findViewById(R.id.list_view);
-        List<String> items = getItems();
+        String[] items = getResources().getStringArray(R.array.items);
         ArrayAdapter<String> arrayAdapter = new ArrayAdapter<>(this, android.R.layout.simple_list_item_1, items);
         listView.setAdapter(arrayAdapter);
+
+        // 2 пример - получаем список в отдельном методе
+//        ListView listView = findViewById(R.id.list_view);
+//        List<String> items = getItems();
+//        ArrayAdapter<String> arrayAdapter = new ArrayAdapter<>(this, android.R.layout.simple_list_item_1, items);
+//        listView.setAdapter(arrayAdapter);
 
         // 1 пример
 //        ListView listView = findViewById(R.id.list_view);
@@ -28,15 +36,15 @@ public class ListViewSimpleActivity extends Activity {
 //        listView.setAdapter(adapter);
     }
 
-    private List<String> getItems() {
-        List<String> items = new ArrayList<>();
-
-        items.add("doctor");
-        items.add("dog");
-        items.add("method");
-        items.add("big");
-        items.add("small");
-
-        return items;
-    }
+//    private List<String> getItems() {
+//        List<String> items = new ArrayList<>();
+//
+//        items.add("doctor");
+//        items.add("dog");
+//        items.add("method");
+//        items.add("big");
+//        items.add("small");
+//
+//        return items;
+//    }
 }

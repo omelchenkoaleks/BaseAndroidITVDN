@@ -4,4 +4,16 @@
     <string name="ao">Omelchenko Aleksandr</string>
     <string name="flower">flower</string>
     <string name="change_image_button">Change Image</string>
+
+    <string-array name="items">
+        <item>doctor</item>
+        <item>milk</item>
+        <item>factor</item>
+        <item>image</item>
+        <item>second</item>
+        <item>list</item>
+        <item>friend</item>
+        <item>girl</item>
+    </string-array>
+
 </resources>
