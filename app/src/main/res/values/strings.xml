@@ -19,6 +19,13 @@
     <string name="hour_up_button">Hour Up</string>
     <string name="hour_0">0</string>
     <string name="min_0">0</string>
+    <string name="hint_your_login_edit_text">your login</string>
+    <string name="hint_your_password_edit_text">your password</string>
+    <string name="register_text_view">Register</string>
+    <string name="login_button">Login</string>
+    <string name="press_name_text_view">Press name:</string>
+    <string name="register_text">Register</string>
+    <string name="login_text">Login</string>
 
     <string-array name="items">
         <item>doctor</item>
